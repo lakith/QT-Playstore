@@ -1,0 +1,22 @@
+QLabel#noteText{
+    margin-left:50px;
+    width: 300px;
+    color:black;
+    font-size:15px;
+}
+
+
+QPushButton#notePadBtn{
+    background-color: #f4511e;
+    color: #FFFFFF;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+
+}
+
+QLabel#notePadlblimg{
+    margin-left:5px;
+    border-radius: 20px;
+}

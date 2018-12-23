@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>659</width>
+    <height>442</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>20</y>
+      <width>191</width>
+      <height>271</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="notePadlblimg">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="noteText">
+       <property name="font">
+        <font>
+         <family>MV Boli</family>
+         <pointsize>11</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Note Pad</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="notePadBtn">
+       <property name="text">
+        <string>Click me</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>659</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionQuit"/>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Help</string>
+    </property>
+    <addaction name="actionAbout"/>
+    <addaction name="actionAbout_Qt"/>
+    <addaction name="separator"/>
+    <addaction name="actionLicense"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuHelp"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionQuit">
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/new/icons/resource/icons/exit.png</normaloff>:/new/icons/resource/icons/exit.png</iconset>
+   </property>
+   <property name="text">
+    <string>Quit</string>
+   </property>
+  </action>
+  <action name="actionAbout">
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/new/icons/resource/icons/about.jpg</normaloff>:/new/icons/resource/icons/about.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>About</string>
+   </property>
+  </action>
+  <action name="actionAbout_Qt">
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/new/icons/resource/icons/abt_qt.png</normaloff>:/new/icons/resource/icons/abt_qt.png</iconset>
+   </property>
+   <property name="text">
+    <string>About Qt</string>
+   </property>
+  </action>
+  <action name="actionLicense">
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/new/icons/resource/icons/Copyright1.png</normaloff>:/new/icons/resource/icons/Copyright1.png</iconset>
+   </property>
+   <property name="text">
+    <string>License</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>

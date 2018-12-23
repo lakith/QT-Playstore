@@ -1,0 +1,35 @@
+<RCC>
+    <qresource prefix="/new/images">
+        <file>resource/images/images.png</file>
+        <file>resource/images/notePadimg.jpg</file>
+    </qresource>
+    <qresource prefix="/new/logo">
+        <file>resource/logo/playstore-512.png</file>
+    </qresource>
+    <qresource prefix="/new/sounds">
+        <file>resource/sounds/244356__soneproject__digital-life-1.wav</file>
+    </qresource>
+    <qresource prefix="/new/icons">
+        <file>resource/icons/about.jpg</file>
+        <file>resource/icons/abt_qt.png</file>
+        <file>resource/icons/Copyright1.png</file>
+        <file>resource/icons/exit.png</file>
+        <file>resource/icons/cut.png</file>
+        <file>resource/icons/paste.png</file>
+        <file>resource/icons/redo.png</file>
+        <file>resource/icons/undo.png</file>
+        <file>resource/icons/open.png</file>
+        <file>resource/icons/save.png</file>
+        <file>resource/icons/copy.png</file>
+        <file>resource/icons/color.jpg</file>
+        <file>resource/icons/font.png</file>
+        <file>resource/icons/html.png</file>
+        <file>resource/icons/text.png</file>
+    </qresource>
+    <qresource prefix="/new/text">
+        <file>resource/text/text/license2.txt</file>
+    </qresource>
+    <qresource prefix="/new/styleSheet">
+        <file>resource/styleSheet/css.css</file>
+    </qresource>
+</RCC>
