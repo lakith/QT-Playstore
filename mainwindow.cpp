@@ -8,6 +8,7 @@
 #include <QTextStream>
 #include<QGraphicsDropShadowEffect>
 #include "notepad.h"
+#include "shapes.h"
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
@@ -83,4 +84,12 @@ void MainWindow::on_notePadBtn_clicked()
     notePad->raise();
     notePad->activateWindow();
     notePad->show();
+}
+
+void MainWindow::on_pushButton_clicked()
+{
+    Shapes *shapes = new Shapes(this);
+    shapes ->raise();
+    shapes -> activateWindow();
+    shapes -> show();
 }
