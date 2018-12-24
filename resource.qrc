@@ -2,12 +2,18 @@
     <qresource prefix="/new/images">
         <file>resource/images/images.png</file>
         <file>resource/images/notePadimg.jpg</file>
+        <file>resource/images/enemy.png</file>
+        <file>resource/images/player.png</file>
+        <file>resource/images/fire.jpg</file>
+        <file>resource/images/bg_game.jpg</file>
     </qresource>
     <qresource prefix="/new/logo">
         <file>resource/logo/playstore-512.png</file>
     </qresource>
     <qresource prefix="/new/sounds">
         <file>resource/sounds/244356__soneproject__digital-life-1.wav</file>
+        <file>resource/sounds/Cannon.mp3</file>
+        <file>resource/sounds/war_sound.mp3</file>
     </qresource>
     <qresource prefix="/new/icons">
         <file>resource/icons/about.jpg</file>

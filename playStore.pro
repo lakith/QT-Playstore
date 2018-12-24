@@ -29,13 +29,27 @@ SOURCES += \
         mainwindow.cpp \
     notepad.cpp \
     shapes.cpp \
-    renderarea.cpp
+    renderarea.cpp \
+    gamewindow.cpp \
+    myplayer.cpp \
+    bullet.cpp \
+    enemy.cpp \
+    gamebase.cpp \
+    score.cpp \
+    health.cpp
 
 HEADERS += \
         mainwindow.h \
     notepad.h \
     shapes.h \
-    renderarea.h
+    renderarea.h \
+    gamewindow.h \
+    myplayer.h \
+    bullet.h \
+    enemy.h \
+    gamebase.h \
+    score.h \
+    health.h
 
 FORMS += \
         mainwindow.ui \

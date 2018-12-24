@@ -9,6 +9,7 @@
 #include<QGraphicsDropShadowEffect>
 #include "notepad.h"
 #include "shapes.h"
+#include "gamewindow.h"
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
@@ -92,4 +93,9 @@ void MainWindow::on_pushButton_clicked()
     shapes ->raise();
     shapes -> activateWindow();
     shapes -> show();
+}
+
+void MainWindow::on_pushButton_2_clicked()
+{
+    GameWindow *gw = new GameWindow();
 }
