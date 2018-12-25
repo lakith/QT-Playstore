@@ -7,7 +7,7 @@
 #include "myplayer.h"
 #include <QMediaPlayer>
 
-GameBase::GameBase(QWidget *parent)
+GameBase::GameBase()
 {
     scene = new QGraphicsScene();
     scene->setSceneRect(0,0,800,600);

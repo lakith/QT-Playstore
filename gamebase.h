@@ -12,7 +12,7 @@
 class GameBase: public QGraphicsView
 {
 public:
-   GameBase(QWidget * parent=0);
+   GameBase();
 
    QGraphicsScene * scene;
    MyPlayer * player;
