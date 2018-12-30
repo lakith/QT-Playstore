@@ -6,6 +6,8 @@
         <file>resource/images/player.png</file>
         <file>resource/images/fire.jpg</file>
         <file>resource/images/bg_game.jpg</file>
+        <file>resource/images/shapes.jpg</file>
+        <file>resource/images/lastFight.jpg</file>
     </qresource>
     <qresource prefix="/new/logo">
         <file>resource/logo/playstore-512.png</file>

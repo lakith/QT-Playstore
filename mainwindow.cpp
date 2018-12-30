@@ -72,12 +72,25 @@ void MainWindow::setImaages()
     QGraphicsDropShadowEffect* effect = new QGraphicsDropShadowEffect();
     effect->setBlurRadius(1);
     effect->setOffset(3,3);
+
     ui->notePadBtn->setGraphicsEffect(effect);
-
     ui->notePadlblimg->setGraphicsEffect(effect);
-
     QPixmap pixmap(":/new/images/resource/images/notePadimg.jpg");
     this->ui->notePadlblimg->setPixmap(pixmap.scaled(180,200));
+
+
+   ui->pushButton->setGraphicsEffect(effect);
+   ui->shapesImg->setGraphicsEffect(effect);
+   QPixmap pixmap2(":/new/images/resource/images/shapes.jpg");
+   this->ui->shapesImg->setPixmap(pixmap2.scaled(180,200));
+
+
+
+    ui->pushButton_2->setGraphicsEffect(effect);
+    ui->fightImg->setGraphicsEffect(effect);
+    QPixmap pixmap3(":/new/images/resource/images/lastFight.jpg");
+    this->ui->fightImg->setPixmap(pixmap3.scaled(180,200));
+
 }
 
 void MainWindow::on_notePadBtn_clicked()

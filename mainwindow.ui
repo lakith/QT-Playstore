@@ -46,7 +46,7 @@
       <item>
        <widget class="QPushButton" name="notePadBtn">
         <property name="text">
-         <string>Click me</string>
+         <string>Click Me</string>
         </property>
        </widget>
       </item>
@@ -55,7 +55,7 @@
     <item>
      <layout class="QVBoxLayout" name="verticalLayout_2">
       <item>
-       <widget class="QLabel" name="label_2">
+       <widget class="QLabel" name="shapesImg">
         <property name="text">
          <string/>
         </property>
@@ -86,7 +86,7 @@
     <item>
      <layout class="QVBoxLayout" name="verticalLayout_3">
       <item>
-       <widget class="QLabel" name="label_4">
+       <widget class="QLabel" name="fightImg">
         <property name="text">
          <string/>
         </property>
@@ -108,7 +108,7 @@
       <item>
        <widget class="QPushButton" name="pushButton_2">
         <property name="text">
-         <string>Click me</string>
+         <string>Click Me</string>
         </property>
        </widget>
       </item>
