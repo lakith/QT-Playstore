@@ -73,8 +73,8 @@ private:
      QPen   mPen;
      ShapeType mShape;
 
-     float mIntervalLength;
-     float mScale;
+     double mIntervalLength;
+     double mScale;
      int   mStepCount;
 
 public slots:

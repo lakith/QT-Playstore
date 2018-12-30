@@ -15,7 +15,9 @@ MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::MainWindow)
 {
+
     ui->setupUi(this);
+    this->setFixedSize(600,360);
     this->setWindowTitle("Play Store");
     setImaages();
 }
@@ -68,8 +70,8 @@ void MainWindow::on_actionLicense_triggered()
 void MainWindow::setImaages()
 {
     QGraphicsDropShadowEffect* effect = new QGraphicsDropShadowEffect();
-    effect->setBlurRadius(1); //Adjust accordingly
-    effect->setOffset(3,3); //Adjust accordingly
+    effect->setBlurRadius(1);
+    effect->setOffset(3,3);
     ui->notePadBtn->setGraphicsEffect(effect);
 
     ui->notePadlblimg->setGraphicsEffect(effect);
@@ -85,6 +87,19 @@ void MainWindow::on_notePadBtn_clicked()
     notePad->raise();
     notePad->activateWindow();
     notePad->show();
+
+//    connect(notePad,&QObject::ab,
+//            [=] (){
+//        ui->progressBar->setValue(ui->horizontalSlider->value());
+//    });
+
+
+//    connect(notePad,&NotePad::closeEvent,
+//            [=](){
+//        qDebug() << "sample one 1";
+//        delete notePad;
+//        qDebug() << "sample one 2";
+//    });
 }
 
 void MainWindow::on_pushButton_clicked()
@@ -93,11 +108,43 @@ void MainWindow::on_pushButton_clicked()
     shapes ->raise();
     shapes -> activateWindow();
     shapes -> show();
+
+
+//    connect(shapes,SIGNAL(aboutToQuit()),this,SLOT(quitMyApp(){
+//                                                        delete shapes
+//                                                        shapes=NULL;
+//                                                    }));
+
 }
 
 void MainWindow::on_pushButton_2_clicked()
 {
     GameWindow *gw = new GameWindow();
+
+//    connect(gw,SIGNAL(aboutToQuit()),this,SLOT(quitMyApp(){
+//                                                        delete gw
+//                                                        gw=NULL;
+//                                                    }));
+}
+
+void MainWindow::closeEvent(QCloseEvent *bar)
+{
+    QMessageBox::StandardButton resBtn = QMessageBox::question( this, "Play Store",
+                                                                tr("Are you sure?\n"),
+                                                                QMessageBox::Cancel | QMessageBox::No | QMessageBox::Yes,
+                                                                QMessageBox::Yes);
+    if (resBtn != QMessageBox::Yes) {
+        bar->ignore();
+    } else {
+        this->close();
+        bar->accept();
+    }
+}
+
+void MainWindow::quitMyApp(NotePad *note)
+{
+    delete note;
+    qDebug() << "sample";
 }
 
 

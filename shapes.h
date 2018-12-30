@@ -2,6 +2,7 @@
 #define SHAPES_H
 
 #include <QMainWindow>
+#include <QMediaPlayer>
 
 namespace Ui {
 class Shapes;
@@ -48,8 +49,11 @@ private slots:
 
     void on_btnLineColor_clicked();
 
+    void playSound();
+
 private:
     void update_ui ();
+    QMediaPlayer * clickSound;
 
 private:
     Ui::Shapes *ui;

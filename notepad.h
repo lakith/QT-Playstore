@@ -2,6 +2,7 @@
 #define NOTEPAD_H
 
 #include <QMainWindow>
+#include <QCloseEvent>
 
 namespace Ui {
 class NotePad;
@@ -41,6 +42,7 @@ private slots:
     void on_actionColor_triggered();
 
     void on_actionSet_HTML_triggered();
+
 
 private:
     Ui::NotePad *ui;

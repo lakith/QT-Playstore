@@ -24,9 +24,13 @@ NotePad::~NotePad()
     delete ui;
 }
 
+
+
 void NotePad::on_actionQuit_2_triggered()
 {
     this->close();
+    this->destroy();
+    QApplication::quit();
 }
 
 void NotePad::on_actionCopy_triggered()
@@ -147,3 +151,5 @@ void NotePad::on_actionSet_HTML_triggered()
     QString html = plain.toHtmlEscaped();
     ui->textEdit->setHtml(html);
 }
+
+

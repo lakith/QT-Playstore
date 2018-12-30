@@ -5,6 +5,23 @@ QLabel#noteText{
     font-size:15px;
 }
 
+QVBoxLayout#verticalLayout{
+    margin: 50px;
+}
+
+QLabel#shapeText{
+    margin-left:50px;
+    width: 300px;
+    color:black;
+    font-size:15px;
+}
+
+QLabel#fightText{
+    margin-left:50px;
+    width: 300px;
+    color:black;
+    font-size:15px;
+}
 
 QPushButton#notePadBtn{
     background-color: #f4511e;
@@ -16,7 +33,248 @@ QPushButton#notePadBtn{
 
 }
 
+QPushButton#pushButton{
+    background-color: #f4511e;
+    color: #FFFFFF;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+
+}
+
+QPushButton#pushButton_2{
+    background-color: #f4511e;
+    color: #FFFFFF;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+
+}
+
+
 QLabel#notePadlblimg{
     margin-left:5px;
     border-radius: 20px;
 }
+
+QPushButton#btnAstroid{
+    background-color:#552222;
+    color: white;
+    text-align: center;
+    padding: 8px 32px;
+}
+
+QPushButton#btnAstroid:hover{
+    background-color:#555555;
+    color: red;
+    text-align: center;
+    padding: 8px 32px;
+}
+
+QPushButton#btnCycloid{
+    background-color:#552222;
+    color: white;
+    text-align: center;
+    padding: 8px 32px;
+}
+
+QPushButton#btnCycloid:hover{
+    background-color:#555555;
+    color: red;
+    text-align: center;
+    padding: 8px 32px;
+}
+
+QPushButton#btnHuygens{
+    background-color:#552222;
+    color: white;
+    text-align: center;
+    padding: 8px 32px;
+}
+
+QPushButton#btnHuygens:hover{
+    background-color:#555555;
+    color: red;
+    text-align: center;
+    padding: 8px 32px;
+}
+
+QPushButton#btnHypo{
+    background-color:#552222;
+    color: white;
+    text-align: center;
+    padding: 8px 32px;
+}
+
+QPushButton#btnHypo:hover{
+    background-color:#555555;
+    color: red;
+    text-align: center;
+    padding: 8px 32px;
+}
+
+QPushButton#btnLine{
+    background-color:#552222;
+    color: white;
+    text-align: center;
+    padding: 8px 32px;
+}
+
+QPushButton#btnLine:hover{
+    background-color:#555555;
+    color: red;
+    text-align: center;
+    padding: 8px 32px;
+}
+
+QPushButton#btnCircle{
+    background-color:#552222;
+    color: white;
+    text-align: center;
+    padding: 8px 32px;
+}
+
+QPushButton#btnCircle:hover{
+    background-color:#555555;
+    color: red;
+    text-align: center;
+    padding: 8px 32px;
+}
+
+QPushButton#btnEllipse{
+    background-color:#552222;
+    color: white;
+    text-align: center;
+    padding: 8px 32px;
+}
+
+QPushButton#btnEllipse:hover{
+    background-color:#555555;
+    color: red;
+    text-align: center;
+    padding: 8px 32px;
+}
+
+QPushButton#btnFancy{
+    background-color:#552222;
+    color: white;
+    text-align: center;
+    padding: 8px 32px;
+}
+
+QPushButton#btnFancy:hover{
+    background-color:#555555;
+    color: red;
+    text-align: center;
+    padding: 8px 32px;
+}
+
+QPushButton#btnStarfish{
+    background-color:#552222;
+    color: white;
+    text-align: center;
+    padding: 8px 32px;
+}
+
+QPushButton#btnStarfish:hover{
+    background-color:#555555;
+    color: red;
+    text-align: center;
+    padding: 8px 32px;
+}
+
+QPushButton#btnCloud{
+    background-color:#552222;
+    color: white;
+    text-align: center;
+    padding: 8px 32px;
+}
+
+QPushButton#btnCloud:hover{
+    background-color:#555555;
+    color: red;
+    text-align: center;
+    padding: 8px 32px;
+}
+
+QPushButton#btnCloud2{
+    background-color:#552222;
+    color: white;
+    text-align: center;
+    padding: 8px 32px;
+}
+
+QPushButton#btnCloud2:hover{
+    background-color:#555555;
+    color: red;
+    text-align: center;
+    padding: 8px 32px;
+}
+
+QPushButton#btnBackground{
+     background-color: #EC7063;
+     color: white;
+     width:200px;
+     padding: 8px 8px;
+     text-align: center;
+     font-size: 12px;
+     margin: 4px 2px;
+}
+
+QPushButton#btnBackground:hover{
+    background-color: #E74C3C;
+}
+
+QPushButton#btnLineColor{
+     background-color: #EC7063;
+     color: white;
+     width:200px;
+     padding: 8px 8px;
+     text-align: center;
+     font-size: 12px;
+     margin: 4px 2px;
+}
+
+QPushButton#btnLineColor:hover{
+    background-color: #E74C3C;
+}
+
+
+QDoubleSpinBox#spinScale{
+    border:2px solid gray;
+    border-radius:10px;
+    padding:0 8px;
+    background:white;
+    selection-background-color:darkGray;
+}
+
+QDoubleSpinBox#spinInterval{
+    border:2px solid gray;
+    border-radius:10px;
+    padding:0 8px;
+    background:white;
+    selection-background-color:darkGray;
+}
+
+QSpinBox#spinCount{
+    border:2px solid gray;
+    border-radius:10px;
+    padding:0 8px;
+    background:white;
+    selection-background-color:darkGray;
+}
+
+QLabel#slabel,#slabel_2,#slabel_3{
+    color: #11011A;
+    font-weight: bold;
+    font-size:12px;
+    font-family: "Comic Sans MS";
+    width: 150px;
+    padding:2px;
+    margin:1px
+}
+
+
+

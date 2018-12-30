@@ -1,7 +1,7 @@
 #include "health.h"
 #include<QFont>
 #include "mainwindow.h"
-#include "gamebase.h";
+#include "gamebase.h"
 
 extern GameBase *game;
 

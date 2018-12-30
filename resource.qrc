@@ -14,6 +14,7 @@
         <file>resource/sounds/244356__soneproject__digital-life-1.wav</file>
         <file>resource/sounds/Cannon.mp3</file>
         <file>resource/sounds/war_sound.mp3</file>
+        <file>resource/sounds/click2.mp3</file>
     </qresource>
     <qresource prefix="/new/icons">
         <file>resource/icons/about.jpg</file>

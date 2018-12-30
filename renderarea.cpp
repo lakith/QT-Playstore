@@ -67,7 +67,7 @@ void RenderArea::on_shape_changed()
 {
     switch (mShape) {
     case Astroid:
-        //  load astroid values
+
         mScale = 90;
         mIntervalLength = 2 * M_PI;
         mStepCount = 256;
@@ -89,49 +89,49 @@ void RenderArea::on_shape_changed()
         mScale = 40;
         mIntervalLength = 2 * M_PI;
         mStepCount = 256;
-        //break;
+        break;
 
     case Line:
-        mIntervalLength = 2;    //  not really needed
-        mScale = 100;    //  line length in pixels
+        mIntervalLength = 2;
+        mScale = 100;
         mStepCount = 128;
-       // break;
+        break;
 
     case Circle:
         mScale = 165;
         mIntervalLength = 2 * M_PI;
         mStepCount = 128;
-       // break;
+        break;
 
     case Ellipse:
         mScale = 75;
         mIntervalLength = 2 * M_PI;
         mStepCount = 128;
-       // break;
+        break;
 
     case Fancy:
         mScale = 10;
         mIntervalLength = 12 * M_PI;
         mStepCount = 512;
-       // break;
+        break;
 
     case Starfish:
         mScale = 25;
         mIntervalLength = 6 * M_PI;
         mStepCount = 256;
-       // break;
+        break;
 
     case Cloud1:
         mScale = 10;
         mIntervalLength = 28 * M_PI;
         mStepCount = 128;
-       // break;
+        break;
 
     case Cloud2:
         mScale = 10;
         mIntervalLength = 28 * M_PI;
         mStepCount = 128;
-        //break;
+        break;
 
     default:
         break;

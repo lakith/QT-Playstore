@@ -3,6 +3,9 @@
 
 #include <QMainWindow>
 #include "gamewindow.h"
+#include "notepad.h"
+#include <QCloseEvent>
+#include <QDesktopWidget>
 
 namespace Ui {
 class MainWindow;
@@ -35,10 +38,17 @@ private slots:
 
     void on_pushButton_2_clicked();
 
+    void closeEvent(QCloseEvent *bar);
+
+
+
+private slots:
+    void quitMyApp(NotePad *note);
 
 
 private:
     Ui::MainWindow *ui;
+    QDesktopWidget *dw;
 };
 
 #endif // MAINWINDOW_H
