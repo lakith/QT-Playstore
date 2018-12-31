@@ -4,6 +4,7 @@
 #include <QWidget>
 #include <QColor>
 #include <QPen>
+#include <math.h>
 
 class RenderArea : public QWidget
 {
